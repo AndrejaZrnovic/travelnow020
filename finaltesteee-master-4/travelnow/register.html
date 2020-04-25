@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Final Exam</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+
+<div class="container-fluid header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12"></div>
+			</div>
+			<div class="row headernav">
+				<div class="col-md-4 menu">
+					<a href="index.html">HOME</a>
+				</div>
+				<div class="col-md-4 menu">
+					<a href="travel.html">TRAVEL</a>
+				</div>
+				<div class="col-md-4 menu">
+					<a href="contact.html">CONTACT</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+<!----------------hero----------------->
+
+<div class="container-fluid hero">
+		<div class="container">
+
+			
+			<span class="logo"><img src="images/logo.png" alt=""></span>
+		
+		</div>
+
+
+
+<!-------------registration---------------------->
+
+
+		<div class="container register">
+			<div class="registration">
+							<!-- <h1>Register or Sign in</h1> -->
+							<form action="fullsend.php"> 
+								<div> 
+									<input type="text" name="first" id="first">
+									<label for="first">First Name</label>	
+									<p> </p> 
+								</div> 
+								<div>
+									<input type="text" name="last" id="last">
+									<label for="last">Last Name</label>
+									<p></p>
+								</div>
+								<div>
+									<input type="text" name="email" id="email">
+									<label for="email">Email</label>
+									<p></p>
+								</div>
+
+								<div>
+									<input type="text" name="telephone" id="telephone">
+									<label for="telephone">Telephone</label>
+									<p></p>
+								</div>
+								<div>
+									<input type="text" name="address" id="address">
+									<label for="address">Address</label>
+									<p></p>
+								</div>
+								<div id="button">
+
+									<button class="btn btn-primary"  onclick="validate()" type="button" >SUBMIT</button>
+								</div> 
+							</form>
+
+							<div id="error" style="display: none;">
+								There is an error.<br> Please check your form again.
+							</div>
+						</div>
+					</div>
+				</div>
+					</div>
+
+
+
+
+<!------------------footer---------------------->
+
+
+
+
+	<div class="container-fluid footer">
+		<div class="container">
+			<div class="row footernav">
+
+				<div class="col-md-4 footermenu">
+					<button type="button" class="btn btn-dark btn-block footerbtn">CONTACT</button>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quasi praesentium eos officiis nam molestiae facere, veniam dolores blanditiis labore inventore.</p>
+				</div>
+
+				<div class="col-md-4 footermenu">
+					<button type="button" class="btn btn-dark btn-block footerbtn">FAQ</button>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloribus reiciendis vitae sequi quae, dolorem vero, optio inventore omnis..</p>
+				</div>
+
+				<div class="col-md-4 footermenu">
+					<button type="button" class="btn btn-dark btn-block footerbtn">OFFERS</button>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores mollitia, asperiores dolorum.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
